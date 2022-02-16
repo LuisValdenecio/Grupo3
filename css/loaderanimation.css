@@ -1,0 +1,31 @@
+
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(99, 0, 197, 0.679);;
+    color: #ffff;
+    position: absolute;
+  }
+
+.loader > .loading {
+    width: 15px;
+    height: 15px;
+    border: 3px solid;
+    border-color: #f49f00 #e6e6e6 #e6e6e6;
+    border-radius: 50px;
+    animation: loading 0.5s infinite;
+    margin-right: 10px;
+  }
+
+  @keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
