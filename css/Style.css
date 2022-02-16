@@ -28,12 +28,12 @@ header{
 }
 
 .logo{
-    position: relative;
-    top: 30%;
-    left: 2%;
+    display: flex;    
 }
 
 .logo img{
+    margin-top: 20px;
+    margin-left: 20px;
     height: 55px;
     width: 250px;
 
