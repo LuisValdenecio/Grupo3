@@ -76,7 +76,7 @@ a .ent_btn {
 /*Animação com cores*/
 @keyframes jumping {
     0% {
-        background-color: rgba(197, 102, 0, 0.14);
+        background-color: rgba(165, 42, 42, 0.500);
         border-top-color: brown;
         border-right-color: green;  
         border-bottom-color: crimson;
@@ -84,7 +84,7 @@ a .ent_btn {
     }
     
     25% {
-        background-color: rgba(197, 102, 0, 0.250);
+        background-color: rgb(210, 105, 30, 0.500);
         border-top-color: chocolate;
         border-right-color: brown;  
         border-bottom-color: green;
@@ -92,7 +92,7 @@ a .ent_btn {
     }
 
     50%{
-        background-color: rgba(197, 102, 0, 0.350);
+        background-color: rgb(220, 20, 60, 0.500);
         border-top-color: crimson;
         border-right-color: chocolate;  
         border-bottom-color: brown;
@@ -100,7 +100,7 @@ a .ent_btn {
     }
 
     75%{
-        background-color: rgba(197, 102, 0, 0.450);
+        background-color: rgb(0, 128, 0, 0.500);
         border-top-color: green;
         border-right-color: crimson;  
         border-bottom-color: chocolate;
@@ -108,7 +108,7 @@ a .ent_btn {
     }
 
     100%{
-        background-color: rgba(197, 102, 0, 0.550);
+        background-color: rgb(255, 255, 255, 0.500);
         border-color: rgb(13, 255, 0);
     }
   }
