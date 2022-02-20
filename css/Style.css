@@ -28,6 +28,10 @@ header{
     height: 190px;
 }
 
+#hcomand{
+    width: 60px;
+}
+
 .logo{
     display: flex;    
 }
@@ -130,6 +134,7 @@ a .ent_btn {
         display: inline-flex;
         flex-direction: row;
         margin-right:15px;
+        margin-left: 15px;
     }
 
     ul{
@@ -148,6 +153,11 @@ a .ent_btn {
     }
 
     li {
-        float: left;
+        float: left;        
+        transition: background-color .3s, color .3s linear;
+    }
+
+    li:hover{
+        background-color: violet;
     }
 
