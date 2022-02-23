@@ -17,6 +17,8 @@ article {
     width: 320px;
     margin: 20px;
     border: 3px solid black;
+    display: flex;
+    flex-direction: row;
 }
 
 /*Jumper Game*/
@@ -49,7 +51,7 @@ article {
     width: 5px;
     background-color: rgba(30, 255, 0, 0.782);
     position: relative;
-    top: 65%;
+    top: 85%;
     left: 90%;
     animation: slidePjobject 2s infinite linear;
 }
@@ -60,5 +62,69 @@ article {
     }
     100%{
         left: 0%;
+    }
+}
+
+.freefireGame #ffperson{
+    height: 40px;
+    width: 10px;
+    background-color: rgb(0, 255, 255) ;
+    position: relative;
+    top: 80%;
+    left: 5%;
+}
+
+.freefireGame #ffperson2{
+    height: 40px;
+    width: 10px;
+    background-color: rgb(0, 255, 255) ;
+    position: relative;
+    top: 80%;
+    left: 65%;
+    animation: tofallanim 1s infinite;
+}
+
+@keyframes tofallanim{
+   0%{
+       transform: rotate(0deg);
+       top: 80%;
+       left: 80%;
+   }
+   85%{
+       transform: rotate(0deg);
+       top: 80%;
+   }
+   100%{
+       transform: rotate(90deg);
+       top: 85%;
+       left: 65%;
+   }
+}
+
+.freefireGame #ffobject{
+    width: 15px;
+    height: 5px;
+    background-color: rgb(128, 128, 128);
+    position: relative;
+    top: 85%;
+    left: 5%;
+}
+.freefireGame #ffobject2{
+    width: 15px;
+    height: 3px;
+    background-color:rgb(255, 187, 0);
+    position: relative;
+    top: 85%;
+    left: 0%;
+    animation: ballanim 1s infinite linear;
+}
+
+@keyframes ballanim{
+    0%{
+        left: 0%;
+    }
+
+    100%{
+        left: 65%;
     }
 }
