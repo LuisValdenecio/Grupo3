@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'FontPixeled';
+    color: #ffff;
+}
+
+@font-face {
+    font-family: 'FontPixeled';
+    src: url(../fontes/Pixeled.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    height: 550px;
+    width: 100%;
+    background-image: url(../img/background02.gif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: rgba(99, 0, 197, 0.652);
+    border-bottom: solid #ffff;
+    width: 100%;
+    height: 190px;
+}
+
+.logo{
+    display: flex;    
+}
+
+.logo img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 55px;
+    width: 250px;
+
+}
+
+footer{
+    background-color: rgba(99, 0, 197, 0.652);
+    border-top: solid #ffff;
+    width: 100%;
+    height: 200px;
+}
+
+.content{
+    height: 100%;
+    width: 100%;    
+}
+
+.Start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and(min-width:768px) {
+    body{
+        height: 539px;
+    }
+}
+
+/*Botão de START*/
+a .ent_btn {
+    text-align: center;
+    height: 45px;
+    width: 95px;
+    color: #ffff;
+    border: 4px solid #ffff;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    animation: jumping 0.80s infinite;
+} 
+
+/*Animação com cores*/
+@keyframes jumping {
+    0% {
+        background-color: rgba(165, 42, 42, 0.500);
+        border-top-color: brown;
+        border-right-color: green;  
+        border-bottom-color: crimson;
+        border-left-color: chocolate;               
+    }
+    
+    25% {
+        background-color: rgb(210, 105, 30, 0.500);
+        border-top-color: chocolate;
+        border-right-color: brown;  
+        border-bottom-color: green;
+        border-left-color: crimson;    
+    }
+
+    50%{
+        background-color: rgb(220, 20, 60, 0.500);
+        border-top-color: crimson;
+        border-right-color: chocolate;  
+        border-bottom-color: brown;
+        border-left-color: green; 
+    }
+
+    75%{
+        background-color: rgb(0, 128, 0, 0.500);
+        border-top-color: green;
+        border-right-color: crimson;  
+        border-bottom-color: chocolate;
+        border-left-color: brown; 
+    }
+
+    100%{
+        background-color: rgb(255, 255, 255, 0.500);
+        border-color: rgb(13, 255, 0);
+    }
+  }
+
+  main .info_bv{
+      color: #ffff;
+      margin-bottom: 3.5%;
+  }
+
+    #navebr{
+        float: right;
+        display: inline-flex;
+        flex-direction: row;
+        margin-right:15px;
+    }
+
+    ul{
+        list-style-type: none;        
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: blueviolet;
+    }
+
+    li a{
+        padding: 14px 16px;
+        color: #ffff;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+
+    li {
+        float: left;
+    }
+
